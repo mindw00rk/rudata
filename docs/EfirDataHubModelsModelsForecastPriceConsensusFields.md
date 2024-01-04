@@ -1,0 +1,46 @@
+# EfirDataHubModelsModelsForecastPriceConsensusFields
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**add_date** | **datetime** | Дата консенсус-прогноза | [optional] 
+**close_price** | **float** | Цена закрытия на дату add_date | [optional] 
+**concensus_currency** | **str** | Буквенный код валюты прогноза цены по ISO 4217 | [optional] 
+**concensus_currency_close_price** | **float** | Цена закрытия в валюте прогноза | [optional] 
+**consensus_num_est** | **float** | Количество рекомендаций | [optional] 
+**exchange** | **str** | Биржа | [optional] 
+**exchange_code** | **str** | Биржевой код бумаги | [optional] 
+**exchange_currency** | **str** | Валюта биржи для данной бумаги | [optional] 
+**exchange_currency_target_price** | **float** | Прогнозная цена в валюте биржи | [optional] 
+**exchange_currency_tpchg** | **float** | Изменение прогнозной цены по отношению к предыдущему прогнозу в валюте биржи | [optional] 
+**exchange_currency_tpchg_pct** | **float** | Изменение прогнозной цены по отношению к предыдущему прогнозу в валюте биржи в % | [optional] 
+**exchange_name** | **str** | Биржевое наименование бумаги | [optional] 
+**fintool_name** | **str** | Краткое наименование бумаги | [optional] 
+**fintoolid** | **int** | Идентификатор бумаги в базе Интерфакс | [optional] 
+**id_recomendation** | **int** | Идентификатор консенсус-рекомендации(1, 3, 5) | [optional] 
+**latest_close_price** | **float** | Цена закрытия на дату latest_date | [optional] 
+**latest_date** | **datetime** | Дата дата последних торгов | [optional] 
+**rec_buy_pct** | **float** | Доля рекомендаций \&quot;Покупать\&quot; | [optional] 
+**rec_change** | **float** | Изменение рекомендации | [optional] 
+**rec_sell_pct** | **float** | Доля рекомендаций \&quot;Продавать\&quot; | [optional] 
+**rec_hold_pct** | **float** | Доля рекомендаций \&quot;Держать\&quot; | [optional] 
+**rec_val** | **float** | Оценка рекомендации в масштабе от -1 до 1 | [optional] 
+**recomendation_name** | **str** | Консенсус-рекомендация(идентификатор) :   Продавать - 1  Держать - 3  Покупать - 5 | [optional] 
+**target_price** | **float** | Консенсус-прогноз цены | [optional] 
+**tp_chng** | **float** | Изменение прогнозной цены по отношению к предыдущему прогнозу | [optional] 
+**tp_chng_pct** | **float** | Изменение прогнозной цены по отношению к предыдущему прогнозу в % | [optional] 
+**tp_chng_m** | **float** | Абсолютное изменение прогнозной цены за месяц | [optional] 
+**tp_chng_q** | **float** | Абсолютное изменение прогнозной цены за 3 месяца | [optional] 
+**tp_chng_y** | **float** | Абсолютное изменение прогнозной цены за год | [optional] 
+**tp_chng_m_pct** | **float** | Относительное изменение прогнозной цены за месяц | [optional] 
+**tp_chng_q_pct** | **float** | Относительное изменение прогнозной цены за 3 месяца | [optional] 
+**tp_chng_y_pct** | **float** | Относительное изменение прогнозной цены за год | [optional] 
+**tp_high** | **float** | Максимальная из оценок прогнозной цены | [optional] 
+**tp_low** | **float** | Минимальная из оценок прогнозной цены | [optional] 
+**tp_median** | **float** | Медианная оценка прогнозной цены | [optional] 
+**tp_deviation** | **float** | Стандартное отклонение по оценкам прогнозной цены | [optional] 
+**upside_pct** | **float** | Потенциал в % | [optional] 
+**fintoolid_linked** | **int** | Идентификатор сопряженной бумаги в базе Интерфакс. Указывается только в случае, если сопряженная бумага используется для расчета консенсуса. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

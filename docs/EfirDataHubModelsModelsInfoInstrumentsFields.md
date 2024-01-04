@@ -1,0 +1,46 @@
+# EfirDataHubModelsModelsInfoInstrumentsFields
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** | Идентификатор инструмента (ISS id) | [optional] 
+**fintool_id** | **int** | FintoolId | [optional] 
+**name** | **str** | Наименование в ЭФиРе | [optional] 
+**shortname_rus** | **str** | Наименование поля (рус.) | [optional] 
+**secname** | **str** | Наименование поля (англ.) | [optional] 
+**isin** | **str** | ISIN | [optional] 
+**cfi_ifx** | **str** | Код типа инструмента по классификатору Интерфакс | [optional] 
+**exch** | **int** | Идентификатор биржи | [optional] 
+**seccode** | **str** | Торговый код | [optional] 
+**symbol_ts** | **str** | Торговое наименование на бирже | [optional] 
+**code_issuer** | **str** | Символьный код эмитента | [optional] 
+**lotsize** | **int** | Размер лота | [optional] 
+**status** | **int** | Торговый статус инструмента | [optional] 
+**issuer** | **str** | Наименование эмитента | [optional] 
+**sector** | **str** | Отрасль эмитента | [optional] 
+**currency** | **str** | Валюта торгов | [optional] 
+**reg_num** | **str** | Регистрационный номер инструмента | [optional] 
+**mat_date** | **datetime** | Дата погашения/экспирации | [optional] 
+**cfi_name** | **str** | Наименование типа инструмента | [optional] 
+**exchange** | **str** | Биржа/рынок | [optional] 
+**visible** | **str** | Статус («Видимый», «Архивный») | [optional] 
+**tool_type** | **str** | Код типа инструмента | [optional] 
+**tool_name** | **str** | Наименование типа инструмента | [optional] 
+**is_main** | **bool** | Основной торговый (или торгуемый) инструмент | [optional] 
+**reg_code** | **str** | Гос. рег. номер | [optional] 
+**reg_code_norm** | **str** | Гос. рег. номер нормализованное значение | [optional] 
+**nrd_code** | **str** | Рег. номер НРД | [optional] 
+**nrd_code_norm** | **str** | Рег. номер НРД нормализованное значение | [optional] 
+**isin2** | **str** | Альтернативный isin | [optional] 
+**isin2_norm** | **str** | Альтернативный isin нормализованное значение | [optional] 
+**isin_norm** | **str** | ISIN нормализованное значение | [optional] 
+**trade_site** | **str** | Торговая площадка | [optional] 
+**board** | **str** | Режим торгов | [optional] 
+**update_date** | **datetime** | Дата обновления | [optional] 
+**base_asset_fintoolid** | **int** | Идентификатор базового актива в базе Интерфакс | [optional] 
+**agent_fininstid** | **int** | Идентификатор агента в базе Интерфакс | [optional] 
+**counter** | **int** | Общее количество записей в выборке | [optional] 
+**rn** | **int** | Номер записи в выборке | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

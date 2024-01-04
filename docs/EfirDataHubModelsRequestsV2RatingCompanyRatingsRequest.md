@@ -1,0 +1,12 @@
+# EfirDataHubModelsRequestsV2RatingCompanyRatingsRequest
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id_type** | **str** | Возможные значения: “FININSTID”(по умолчанию), “A2”, “A3”, “ОГРН”, “OGRN”, “ИНН”, “INN” | [optional] 
+**_date** | **datetime** | Дата актуальности рейтингов. | [optional] 
+**filter** | **str** | Строка фильтрации (необязательный) | [optional] 
+**count** | **int** | Макимальное возвращаемое количество записей.  Если для count задано значение 0 или его присвоение отсутствует, то возвращается 1000 записей.  Чтобы получить все записи, надо указать заведомо большее возвращаемое число записей. Например: 1000000. | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+

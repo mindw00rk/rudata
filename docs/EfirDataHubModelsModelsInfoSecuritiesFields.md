@@ -1,0 +1,45 @@
+# EfirDataHubModelsModelsInfoSecuritiesFields
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id_fintool** | **int** | Идентификатор инструмента, старое имя, рекомендуется использовать fintoolid. | [optional] 
+**quatro_id** | **str** | Идентификатор инструмента в системе Quatro | [optional] 
+**shortname_rus** | **str** | Краткое наименование инструмента | [optional] 
+**fullname_rus** | **str** | Полное наименование инструмента | [optional] 
+**isin** | **str** | Код ISIN | [optional] 
+**cfi** | **str** | Код CFI | [optional] 
+**reg_code** | **str** | Регистрационный номер инструмента | [optional] 
+**on_quatro** | **int** | Торгуется ли в системе Quatro (0/1) | [optional] 
+**facevalue** | **float** | Номинал | [optional] 
+**facevalue_currency** | **str** | Валюта номинала | [optional] 
+**issue_vol** | **int** | Объем выпуска (в штуках) | [optional] 
+**coupon_rate** | **str** | Ставка текущего купона | [optional] 
+**endmty_date** | **datetime** | Дата погашения выпуска | [optional] 
+**id_emitent** | **int** | Идентификатор эмитента | [optional] 
+**fintoolid** | **int** | Идентификатор инструмента | [optional] 
+**fininstid** | **int** | Идентификатор эмитента выпуска для ценных бумаг либо идентификатор управляющей компании для фондов в базе Интерфакс | [optional] 
+**emitent_shortname_rus** | **str** | Наименование эмитента | [optional] 
+**okpo** | **str** | ОКПО эмитента | [optional] 
+**inn** | **str** | ИНН эмитента | [optional] 
+**ogrn** | **str** | ОГРН эмитента | [optional] 
+**sector** | **str** | Отрасль эмитента. Список возможных значений возвращает метод EnumValues(‘securities’, ‘sector’). | [optional] 
+**update_date** | **datetime** | Дата последних изменений информации по инструменту | [optional] 
+**fintooltype** | **str** | Тип финансового инструмента (наименование). Список возможных значений возвращает метод EnumValues(‘securities’, ‘fintooltype’). | [optional] 
+**securitytype** | **str** | Тип выпуска/расписки/фонда. Список возможных значений возвращает метод EnumValues(‘securities’, ‘SecurityType’). | [optional] 
+**securitykind** | **str** | Вид выпуска/спонсируемость/тип инвестиций. Список возможных значений возвращает метод EnumValues(‘securities’, ‘SecurityKind’). | [optional] 
+**status_name** | **str** | Наименование статуса финансового инструмента («В обращении», «Погашен» и т.п.). Список возможных значений возвращает метод EnumValues(‘securities’, ‘Status_name’). | [optional] 
+**coupons_per_year** | **int** | Количество купонов в год | [optional] 
+**borroweruid** | **int** | УИН реального заемщика в БД Интерфакс(fininstid); для депо-расписок УИН эмитента представлямой(базовой) ценной бумаги | [optional] 
+**borrowername** | **str** | Название реального заемщика облигаций; для депо-расписок название эмитента представлямой (базовой) ценной бумаги | [optional] 
+**borrowerinn** | **str** | ИНН реального заемщика облигаций; для депо-расписок ИНН эмитента представлямой(базовой) ценной бумаги | [optional] 
+**borrowersector** | **str** | Сектор реального заемщика облигаций; для депо-расписок сектор эмитента представлямой (базовой) ценной бумаги | [optional] 
+**nsd_service** | **str** | Обслуживание в НРД. («На обслуживании» и т.п.). Список возможных значений возвращает метод EnumValues(‘securities’, ‘nsd_service’) | [optional] 
+**nrdcode** | **str** | Код НРД | [optional] 
+**id_iss** | **int** | ID торгового инструмента в БД Интерфакс | [optional] 
+**listing_level** | **int** | Уровень листинга Мосбиржи | [optional] 
+**reg_date** | **datetime** | Дата государственной регистрации | [optional] 
+**counter** | **int** | Общее количество записей в выборке | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
